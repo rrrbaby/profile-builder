@@ -40,8 +40,9 @@ function logStats() {
 
 function checkIfComplete() {
 	if (name != null && age != null && favoriteColor != null) {
-		alert("Hello " + name + "! You are " + age + "years old, and your favorite color is " + favoriteColor + "."
+		alert("Hello " + name + "! You are " + age + "years old, and your favorite color is " + favoriteColor + ".",);
 			  }
 	
 }
+
 
