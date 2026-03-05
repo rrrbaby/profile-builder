@@ -39,7 +39,9 @@ function logStats() {
 }
 
 function checkIfComplete() {
-	//figure out if the user has answered all the questions
-	//if they do, display an alert() popup showing their completed profile
-	//example output: "Your profile is complete! Name: Peter, Age: 30, Favorite Color: Blue"
+	if (name != null && age != null && favoriteColor != null) {
+		alert("Hello " + name + "! You are " + age + "years old, and your favorite color is " + favoriteColor + "."
+			  }
+	
 }
+
